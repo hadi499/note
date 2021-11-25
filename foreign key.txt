@@ -1,0 +1,1 @@
+ALTER TABLE `krs` ADD FOREIGN KEY (`id_mahasiswa`) REFERENCES `mahasiswa`(`id_mahasiswa`) ON DELETE CASCADE ON UPDATE CASCADE; ALTER TABLE `krs` ADD FOREIGN KEY (`id_matakuliah`) REFERENCES `matakuliah`(`id_matakuliah`) ON DELETE RESTRICT ON UPDATE CASCADE;

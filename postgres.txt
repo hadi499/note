@@ -1,0 +1,11 @@
+create user hadi with encrypted password 'admin123';
+grant all privileges on database test to hadi;
+
+\l list databases
+\dt lihat table
+
+psql -h localhost -p 5432 -U postgres test
+sudo -i -u postgres
+
+
+

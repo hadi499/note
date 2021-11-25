@@ -1,0 +1,29 @@
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hadi499/belajar_expressjs.git
+git push -u origin main
+
+
+git add .
+git commit -m "commit kedua"
+git push origin main
+
+react problem
+hapus file .git di folder react
+del -Recurse -Force .git
+
+
+git branch
+git checkout nama-branch
+git log
+git log --all --decorate --oneline --graph
+git push --set-upstream origin nama-branch
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName

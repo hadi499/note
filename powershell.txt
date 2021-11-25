@@ -1,0 +1,5 @@
+Menghapus Folder
+Remove-Item -Recurse -Force [Nama_Folder]
+
+lihat file tersembunyi
+dir -Force

@@ -1,0 +1,34 @@
+Information Ghatering
+
+1. Whois Lookup - Find info about the owner of the target.
+→ http://whois.domaintools.com/
+2. Netcraft Site Report - Shows technologies used on the target.
+→ http://toolbar.netcraft.com/site_report?url=
+3. Robtex DNS lookup - Shows comprehensive info about the target website.
+→ https://www.robtex.com
+
+dirb http://10.20.14.204/mutillidae //menemukan sensitive file
+
+maltego
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

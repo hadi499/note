@@ -1,0 +1,8 @@
+mvn archetype:generate
+mvn compile
+mvn test
+mvn package assembly:single
+java -jar nama_file.jar
+
+<groupId>programmer-zaman-now</groupId>
+<artifactId>belajar-java-database</artifactId>

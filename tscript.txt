@@ -1,0 +1,6 @@
+npm install -g typescript
+tsc --v
+
+tsc --init
+tsc ---> compile file index.ts
+tsc --watch ---> live server

@@ -1,0 +1,25 @@
+ERROR:asyncio:Exception in callback <TaskWakeupMethWrapper object at 0x0000022C7798C100>(<Future finis...0717\r\n\r\n'>)
+
+
+run 
+jupyter notebook --generate-config
+
+This will create jupyter_notebook_config.py in your Jupyter folder. The Jupyter folder is in your home directory, ~/.jupyter
+
+Step 2
+
+find these two lines in file  jupyter_notebook_config.py
+
+## The kernel manager class to use.
+#  Default: 'notebook.services.kernels.kernelmanager.MappingKernelManager'
+#  c.NotebookApp.kernel_manager_class = 'notebook.services.kernels.kernelmanager.MappingKernelManager'
+c.NotebookApp.kernel_manager_class = 'notebook.services.kernels.kernelmanager.AsyncMappingKernelManager'
+
+
+nbextension
+
+pip install jupyter_contrib_nbextensions
+
+jupyter contrib nbextension install --user 
+
+

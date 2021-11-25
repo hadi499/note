@@ -1,0 +1,25 @@
+1. Buka Visual studio code kalian
+2. Lalu pilih new - preferences - user snippets. 
+3. Lalu pilih New Global Snippets file. 
+4. Lalu buat dengan nama html.json
+
+
+{
+
+  "PHP Tag": {
+
+    "prefix": "php",
+
+    "body": "<?php $1 ?>"
+
+  },
+
+  "Inline Echo": {
+
+    "prefix": "phpp",
+
+    "body": "<?= $$1; ?>"
+
+  }
+
+}
