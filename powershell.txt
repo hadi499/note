@@ -3,3 +3,7 @@ Remove-Item -Recurse -Force [Nama_Folder]
 
 lihat file tersembunyi
 dir -Force
+
+Get-ExecutionPolicy
+Set-ExecutionPolicy RemoteSigned
+
