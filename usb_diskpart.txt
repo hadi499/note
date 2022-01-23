@@ -1,0 +1,10 @@
+
+Diskpart
+List Disk 
+Select Disk 1
+Clean
+Create Partition Primary
+Partition 1
+format fs=fat32
+Assign 
+

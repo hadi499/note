@@ -3,6 +3,8 @@ mvn compile
 mvn test
 mvn package assembly:single
 java -jar nama_file.jar
+mvn clean 
 
-<groupId>programmer-zaman-now</groupId>
-<artifactId>belajar-java-database</artifactId>
+
+<groupId>programmer-zaman-now</groupId> / nama company
+<artifactId>belajar-java-maven</artifactId>
