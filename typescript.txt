@@ -1,3 +1,0 @@
-tsc sandbox.ts -w
-
-tsc --init
