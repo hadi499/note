@@ -1,2 +1,3 @@
 ng serve
 ng generate component components/tasks
+ng generate service services/task
