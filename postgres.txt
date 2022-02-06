@@ -3,14 +3,18 @@ grant all privileges on database "student" to hadi;
 grant all privileges on database "student" to postgres;
 host name pgadmin 127.0.0.1
 
-\l list databases
-\dt lihat table
-\q keluar
-exit logout
-\du daftar user
+sudo -u postgres createuser --interactive
+sudo -u postgres createdb hadi
+sudo -u hadi psql
 
-\d student
-\c namadatabase
+\l    list databases
+\dt   lihat table
+\q    keluar
+exit  logout
+\du   daftar user
+
+\d   student
+\c   namadatabase
 psql -h localhost -p 5432 -U postgres test
 sudo -i -u postgres
 sudo service postgresql status
