@@ -9,6 +9,8 @@ y: yank / copy   p: paste
 d: delete / cut
 x: delete character
 dw: delete word
+di + " : menghapus di didalam " "
+di + { : menghapus di dalam {}
 shift d : menghapus sampai akhir kalimat
 u: undo
 ctrl + r: redo
