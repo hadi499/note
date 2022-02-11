@@ -11,6 +11,8 @@ x: delete character
 dw: delete word
 di + " : menghapus di didalam " "
 di + { : menghapus di dalam {}
+dit : menghapus kata didalam tag
+dat : menghapus tag dan beserta isinya
 shift d : menghapus sampai akhir kalimat
 u: undo
 ctrl + r: redo
