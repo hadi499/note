@@ -1,4 +1,4 @@
-create user hadi with encrypted password 'admin123';
+create user hadi with encrypted password '123456';
 grant all privileges on database "student" to hadi;
 grant all privileges on database "student" to postgres;
 host name pgadmin 127.0.0.1
