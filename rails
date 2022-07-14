@@ -1,0 +1,3 @@
+rails server / rails s
+rails g controller home index
+rails routes
