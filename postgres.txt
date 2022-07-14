@@ -1,3 +1,13 @@
+sudo -i -u postgres
+psql
+
+
+sudo -u postgres createuser --interactive (mode terminal)
+
+psql
+ALTER USER user_name WITH PASSWORD 'new_password';
+
+
 create user hadi with encrypted password '123456';
 grant all privileges on database "student" to hadi;
 grant all privileges on database "student" to postgres;
@@ -6,6 +16,7 @@ host name pgadmin 127.0.0.1
 sudo -u postgres createuser --interactive
 sudo -u postgres createdb hadi
 sudo -u hadi psql
+
 
 \l    list databases
 \dt   lihat table
