@@ -1,7 +1,7 @@
 
 docker images  ***melihat image docker***
 docker container ls   ***running container***
-docker container --all  ***melihat semua container***
+docker container ls --all  ***melihat semua container***
 docker container create --name mongoserver1 -p 8080:27017 mongo:4.1 ***8080 untuk diakses dari luar, 27017 port docker***
 docker container start mongoserver1  
 docker container stop mongoserver1  
