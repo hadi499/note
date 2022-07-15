@@ -11,6 +11,12 @@ docker image rm mongo:4.1
 **postgress**
 docker run --name some-postgres2 -p 8080:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 
+docker run -p 4000:80 \
+        -e 'PGADMIN_DEFAULT_EMAIL=hadi@gmail.com' \
+        -e 'PGADMIN_DEFAULT_PASSWORD=123456' \
+        -d dpage/pgadmin4
+
+
 **python**
 docker run --interactive --tty python:3.9
 
