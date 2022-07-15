@@ -1,3 +1,6 @@
+install linux mint
+sudo apt install docker docker-compose docker-doc docker-registry docker.io
+
 
 docker images  ***melihat image docker***
 docker container ls   ***running container***
