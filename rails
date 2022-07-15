@@ -1,5 +1,9 @@
 rails server / rails s
+
+rails g model Article title:string body:text
+
 rails g controller home index
+
 rails routes
 // make make table
 rails g scaffold friends first_name:string last_name:string email:string phone:string twitter:string
