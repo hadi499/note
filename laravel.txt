@@ -5,6 +5,7 @@ php artisan migrate:fresh
 php artisan make:model -m Post
 php artisan make:controller PostController
 php artisan db:seed 
+php artisan route:list
 
 .env
 postgres
