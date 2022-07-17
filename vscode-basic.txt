@@ -1,0 +1,9 @@
+{
+  
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 13,   
+  
+}
