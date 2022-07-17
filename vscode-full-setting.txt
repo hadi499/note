@@ -1,0 +1,36 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "fira code",
+  "editor.lineHeight": 24,
+  "terminal.integrated.fontSize": 13,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "erb": "html",
+    "ruby": "html"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "security.workspace.trust.untrustedFiles": "open",
+  "emmet.triggerExpansionOnTab": true, 
+  "blade.format.enable": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "[blade]": {
+    "editor.defaultFormatter": "onecentlin.laravel-blade"
+  },
+  "git.confirmSync": false,
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
