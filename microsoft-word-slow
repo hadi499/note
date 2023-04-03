@@ -1,0 +1,10 @@
+Office 2007: HKEY_CURRENT_USER/Software/Microsoft/Office/12.0/Word
+Office 2010: HKEY_CURRENT_USER/Software/Microsoft/Office/14.0/Word
+Office 2013: HKEY_CURRENT_USER/Software/Microsoft/Office/15.0/Word
+Office 2016, 2019 & Office 365: HKEY_CURRENT_USER/Software/Microsoft/Office/16.0/Word
+
+
+Delete the following keys under the Word key:
+
+Data (e.g. HKEY_CURRENT_USER/Software/Microsoft/Office/16.0/Word/Data)
+Options (e.g. HKEY_CURRENT_USER/Software/Microsoft/Office/16.0/Word/Options)
