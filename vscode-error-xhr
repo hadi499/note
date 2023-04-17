@@ -3,3 +3,6 @@ code --ignore-certificate-errors
 
 windows:
 code.exe --ignore-certificate-errors
+
+
+setting dns jaringan ke dns google : 8.8.8.8 , 8.8.4.4
