@@ -1,0 +1,5 @@
+linux:
+code --ignore-certificate-errors
+
+windows:
+code.exe --ignore-certificate-errors
