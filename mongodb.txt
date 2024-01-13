@@ -14,10 +14,6 @@ db.users.insertMany([{name : "john" }, {name : "eko"}])
 db.users.find()
 db.users.deleteOne({name: "john"})
 
-PORT = 3001
-DB_CONNECTION = mongodb+srv://hadi:admin123@cluster0.d343x.mongodb.net/santridb?retryWrites=true&w=majority
-**jaringan umum**
-MONGO_URL = mongodb+srv://hadi:admin123@cluster0.d343x.mongodb.net/blog?retryWrites=true&w=majority
 
-**telkomsel**
-MONGO_URL = mongodb://hadi:admin123@cluster0-shard-00-00.d343x.mongodb.net:27017,cluster0-shard-00-01.d343x.mongodb.net:27017,cluster0-shard-00-02.d343x.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-cdo60m-shard-0&authSource=admin&retryWrites=true&w=majority
+MONGO_URL = mongodb+srv://hadi:<password>@cluster0.d343x.mongodb.net/blog?retryWrites=true&w=majority
+
